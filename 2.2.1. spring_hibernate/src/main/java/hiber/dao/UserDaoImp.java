@@ -38,4 +38,6 @@ public class UserDaoImp implements UserDao {
       query.setParameter("model", model).setParameter("series", series);
       return query.getSingleResult();
    }
+
+
 }

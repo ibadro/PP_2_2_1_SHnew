@@ -67,4 +67,15 @@ public class User {
    public Car getCar() {
       return car;
    }
+
+   @Override
+   public String toString() {
+      return "User{" +
+              "car=" + car +
+              ", id=" + id +
+              ", firstName='" + firstName + '\'' +
+              ", lastName='" + lastName + '\'' +
+              ", email='" + email + '\'' +
+              '}';
+   }
 }
