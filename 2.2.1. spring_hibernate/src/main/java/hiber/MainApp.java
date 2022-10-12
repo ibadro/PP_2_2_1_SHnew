@@ -22,6 +22,7 @@ public class MainApp {
 
 
         System.out.println(userService.listUsers().toString());
+        System.out.println("**********************************");
         System.out.println(userService.getUserByCar("Car1", 1));
         context.close();
     }
